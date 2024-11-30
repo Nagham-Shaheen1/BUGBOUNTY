@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+  position: relative;
+}
+.mantine-Button-root{
+  outline: none !important;
+}
+.mantine-Button-root:focus {
+  outline: none !important;
+} 
+button:focus, button:focus-visible {
+  outline: none !important;
+}
+.m_8fb7ebe7:focus, .m_8fb7ebe7:focus-within {
+  outline: none !important;
+  --input-bd: none !important;
+}
+.mantine-Button-root:focus , .mantine-Button-root:focus-within{
+  --button-bd:none !important;
+  outline: none !important;
+}
+/* .m_8fb7ebe7{
+  background-color: #fff !important;
+} */
+
+.m_8d3afb97{
+  outline: none !important;
+  border: none !important;
+  --ai-bd: none !important;
+}
+/* *:checked{
+  outline: #B21222 !important;
+} */
+/* *::selection{
+  outline: none !important;
+} */
+/* .mantine-Button-root:hover {
+  border-color: #b21222 !important;
+  transform: scale(1.05);
+  transition: all 0.4s;
+} */
+
+.mantine-Card-root{
+  transition: all 0.4s;
+}
+.mantine-Card-root:hover{
+  transform: scale(1.05);
+  transition: all 0.4s;
+}
+.m_8fb7ebe7{
+  border-radius: 10px !important;
+}
+
+input::placeholder{
+  text-align: start;
+}
+input{
+  text-align: start !important;
+}
+
+p{
+  color: #1D1D1B #5B0F0E #990000 #A60911 #B21222 #CDCDCD #E3E3E3 #F9F9F9;
+}
+body{
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+*{
+  font-family: "Zain", sans-serif !important;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

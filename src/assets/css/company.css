@@ -1,0 +1,8 @@
+.select::placeholder{
+    text-align: start;
+
+}
+.select{
+    text-align: start !important;
+    margin-top: 0 !important;
+}
